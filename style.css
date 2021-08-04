@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    /* margin-top: 250px; */
+    background-color: #5A79F7;
+    text-decoration: double; 
+    color: white;
+    text-transform: uppercase;
+    border-color: black;
+    font-family: sans-serif;
+    
+    
+    
+}
+
+
+
+.contact-form{
+    margin-top: 30%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content:center; */
+    align-items: center;
+    border-radius: 20px;
+    height: 90%;
+    width: 90%;
+  background-color: #1C1E21;  
+}
+
+.contact-form__title{
+    display: flex;
+    width: 70%;
+    text-align: center;
+
+    padding: 0px 0px 0px 0px;
+    font-size: 18px;
+   
+}
+
+input{
+
+width: 100%;
+height: 20px;
+background-color: #1C1E21;
+padding-left: 10px;
+margin: 20px 10 0 20px;
+/* border: 0; */
+border: none;
+color: oldlace;
+font-size: 20px;
+text-transform:capitalize;
+outline: none;
+
+}
+
+.contact-form__input-wrapper_name img,
+.contact-form__input-wrapper_phone img
+{
+    /* background-size: 10%; */
+    filter: invert(1);
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    
+}
+
+input:focus{
+    border: none;
+}
+
+.contact-form__input-wrapper{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 50px;
+    width: 90%;
+    border: 1px solid #3d4044;
+    /* padding: 10px 10px 0px 70px; */
+    margin: 20px 0 0 20px;
+    /* background-color: tomato; */
+    
+    border-radius: 3px;
+    
+  
+    
+    }
+
+    .contact-form__input_theme{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    button{
+        
+        text-decoration: none;
+        width: 180px;
+        height: 55px;
+        justify-content: center;
+        background-color: #7156F3;
+        border: none;
+        outline: none;
+        border-radius: 30px;
+        color: #fff;
+        font-weight: bold;
+        font-size: 14px;
+        text-transform: uppercase;     
+        transition: 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        
+    }
+
+    button:hover{
+        background-color: #7e57c2;
+        width: 200px;
+        height: 60px;
+        font-size: 15px;
+        transition: 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);   
+    }
+
+    .buttons{
+        display: flex;
+        width: 100%;
+        height: 150px;
+        justify-content: center;
+        align-items: center;
+       
+    
+    }
